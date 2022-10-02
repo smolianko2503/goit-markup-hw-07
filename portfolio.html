@@ -18,6 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page">
@@ -399,6 +400,22 @@
             </li>
           </ul>
         </div>
+
+        <form class="follow-form-footer" name="follow-form-footer">
+          <strong class="follow-title-footer">Підпишіться на розсилку</strong>
+
+          <div class="follow-form-group">
+            <label class="follow-form-field">
+              <input class="follow-form-input" name="user-name" placeholder="E-mail" required />
+            </label>
+            <button class="register-footer-btn" type="submit">
+              Підписатися
+              <svg class="follow-footer-icon" width="24" height="24">
+                <use href="./image/icons.svg#telegram"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
   </body>
